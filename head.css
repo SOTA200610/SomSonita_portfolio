@@ -1,0 +1,150 @@
+/* ================= SKILLS SECTION ================= */
+
+.main{
+    width:90%;
+    margin:5rem auto;
+}
+
+.skills-main-div{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+
+    width:100%;
+    margin-bottom:50px;
+}
+
+/* ================= LEFT SIDE ================= */
+
+.skills-heading{
+    font-size:56px;
+    font-weight:700;
+    margin-bottom:20px;
+    color:#111;
+}
+
+.skills-text-subtitle{
+    font-size:22px;
+    color:rgb(134, 142, 150);
+    line-height:1.6;
+    max-width:700px;
+}
+
+/* ================= ICONS ================= */
+
+.dev-icon{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+
+    padding:0;
+    margin-top:40px;
+
+    list-style:none;
+}
+
+.software-skills-inline{
+    width:120px;
+    height:120px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+
+    box-shadow:0 5px 18px rgba(0,0,0,0.08);
+
+    transition:0.3s ease;
+}
+
+.software-skills-inline:hover{
+    transform:translateY(-8px);
+}
+
+/* ICON */
+
+.software-skills-inline i{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+/* TEXT */
+
+.software-skills-inline p{
+    margin:0;
+    font-size:15px;
+    font-weight:600;
+}
+
+/* ICON COLORS */
+
+.fa-html5{
+    color:#e34f26;
+}
+
+.fa-css3-alt{
+    color:#1572b6;
+}
+
+.fa-js{
+    color:#f7df1e;
+}
+
+.fa-python{
+    color:#3776ab;
+}
+
+.fa-microsoft{
+    color:#5e5e5e;
+}
+
+/* ================= SKILL TEXT ================= */
+
+.skills-text{
+    display:flex;
+    align-items:flex-start;
+
+    gap:15px;
+
+    font-size:18px;
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:18px;
+}
+
+.skills-text img{
+    margin-top:5px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+    .skills-main-div{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .skills-heading{
+        font-size:42px;
+    }
+
+    .skills-text-subtitle{
+        font-size:18px;
+    }
+
+    .dev-icon{
+        justify-content:center;
+    }
+
+    .skills-text{
+        text-align:left;
+    }
+}
